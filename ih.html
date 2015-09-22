@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="style/basics.css">
+<script type="text/javascript" src="script/index.js"></script>
+<script type="text/javascript" src="script/global.js"></script>
+</head>
+
+<body class="ih" id="ih">
+<div id="head" class="head">
+  <h1><span></span></h1>
+  <div class="search" id="search">
+    <input type="text" class="fir" id="fir" placeholder="首尔">
+    <input type="text" class="sec" id="sec"  placeholder="入住">
+    <input type="text" class="thir" id="thir" placeholder="商圈/地标/景点/酒店名">
+    <a href="" class="ser">
+    <div id="btn" class="btn"><img src="images/search.png" alt="">搜索</div>
+    </a>
+    <div id="f1" class="f1" style="display:none;">
+      <p class="p1">可搜索59,922个城市</p>
+      <ul class="nav" id="nav">
+        <li><a href="#" style="color:#03C">热门</a></li>
+        <li><a href="#">亚洲</a></li>
+        <li><a href="#">美洲</a></li>
+        <li><a href="#">欧洲</a></li>
+        <li><a href="#">大洋洲</a></li>
+      </ul>
+      <div class="cont" id="cont">
+        <ul class="re" id="re">
+          <ul class="r1">
+            <li><a href="">首尔</a></li>
+            <li><a href="">普吉岛</a></li>
+            <li><a href="">拉斯维加斯</a></li>
+            <li><a href="">香港</a></li>
+            <li><a href="">伦敦</a></li>
+          </ul>
+          <ul class="r2">
+            <li><a href="">曼谷</a></li>
+            <li><a href="">清迈</a></li>
+            <li><a href="">纽约</a></li>
+            <li><a href="">苏梅岛</a></li>
+            <li><a href="">沙巴</a></li>
+          </ul>
+          <ul class="r3">
+            <li><a href="">台北</a></li>
+            <li><a href="">巴厘岛</a></li>
+            <li><a href="">芭提雅</a></li>
+            <li><a href="">大阪</a></li>
+            <li><a href="">长滩岛</a></li>
+          </ul>
+          <ul class="r4">
+            <li><a href="">新加坡</a></li>
+            <li><a href="">东京</a></li>
+            <li><a href="">吉隆坡</a></li>
+            <li><a href="">洛杉矶</a></li>
+            <li><a href="">巴黎</a></li>
+          </ul>
+        </ul>
+        <ul class="re" id="ya" style="display:none;">
+          <ul class="y1">
+            <li><a href="">首尔</a></li>
+            <li><a href="">普吉岛</a></li>
+            <li><a href="">兰卡威</a></li>
+            <li><a href="">济州岛</a></li>
+            <li><a href="">沙巴</a></li>
+          </ul>
+          <ul class="y2">
+            <li><a href="">曼谷</a></li>
+            <li><a href="">清迈</a></li>
+            <li><a href="">吉隆坡</a></li>
+            <li><a href="">马尔代夫</a></li>
+            <li><a href="">皮皮岛</a></li>
+          </ul>
+          <ul class="y3">
+            <li><a href="">台北</a></li>
+            <li><a href="">巴厘岛</a></li>
+            <li><a href="">香港</a></li>
+            <li><a href="">胡志明市</a></li>
+            <li><a href="">迪拜</a></li>
+          </ul>
+          <ul class="y4">
+            <li><a href="">新加坡</a></li>
+            <li><a href="">东京</a></li>
+            <li><a href="">高雄</a></li>
+            <li><a href="">釜山</a></li>
+            <li><a href="">塞班岛</a></li>
+          </ul>
+        </ul>
+        <ul class="re" id="ou" style="display:none;">
+          <ul class="o1">
+            <li><a href="">拉斯维加斯</a></li>
+            <li><a href="">旧金山</a></li>
+            <li><a href="">华盛顿</a></li>
+            <li><a href="">波士顿</a></li>
+            <li><a href="">墨西哥城</a></li>
+          </ul>
+          <ul class="o2">
+            <li><a href="">纽约</a></li>
+            <li><a href="">纽约</a></li>
+            <li><a href="">温哥华</a></li>
+            <li><a href="">圣保罗</a></li>
+            <li><a href="">塞班岛</a></li>
+          </ul>
+          <ul class="o3">
+            <li><a href="">东京</a></li>
+            <li><a href="">纽约</a></li>
+            <li><a href="">芭提雅</a></li>
+            <li><a href="">吉隆坡</a></li>
+            <li><a href="">大阪</a></li>
+          </ul>
+          <ul class="o4">
+            <li><a href="">洛杉矶</a></li>
+            <li><a href="">西雅图</a></li>
+            <li><a href="">多伦多</a></li>
+            <li><a href="">大阪</a></li>
+            <li><a href="">蒙特利尔</a></li>
+          </ul>
+        </ul>
+        <ul class="re" id="mei" style="display:none;">
+          <ul class="m1">
+            <li><a href="">美洲</a></li>
+            <li><a href="">旧金山</a></li>
+            <li><a href="">拉斯维加斯</a></li>
+            <li><a href="">华盛顿</a></li>
+            <li><a href="">波士顿</a></li>
+          </ul>
+          <ul class="m2">
+            <li><a href="">曼谷</a></li>
+            <li><a href="">台北</a></li>
+            <li><a href="">新加坡</a></li>
+            <li><a href="">清慢</a></li>
+            <li><a href="">巴厘岛</a></li>
+          </ul>
+          <ul class="m3">
+            <li><a href="">东京</a></li>
+            <li><a href="">纽约</a></li>
+            <li><a href="">芭提雅</a></li>
+            <li><a href="">吉隆坡</a></li>
+            <li><a href="">大阪</a></li>
+          </ul>
+          <ul class="m4">
+            <li><a href="">洛杉矶</a></li>
+            <li><a href="">伦敦</a></li>
+            <li><a href="">长滩岛</a></li>
+            <li><a href="">巴黎</a></li>
+            <li><a href="">香港</a></li>
+          </ul>
+        </ul>
+        <ul class="re" id="da" style="display:none;">
+          <ul class="d1">
+            <li><a href="">大洋洲</a></li>
+            <li><a href="">普吉岛</a></li>
+            <li><a href="">拉斯维加斯</a></li>
+            <li><a href="">苏梅岛</a></li>
+            <li><a href="">沙巴</a></li>
+          </ul>
+          <ul class="d2">
+            <li><a href="">曼谷</a></li>
+            <li><a href="">台北</a></li>
+            <li><a href="">新加坡</a></li>
+            <li><a href="">清慢</a></li>
+            <li><a href="">巴厘岛</a></li>
+          </ul>
+          <ul class="d3">
+            <li><a href="">东京</a></li>
+            <li><a href="">纽约</a></li>
+            <li><a href="">芭提雅</a></li>
+            <li><a href="">吉隆坡</a></li>
+            <li><a href="">大阪</a></li>
+          </ul>
+          <ul class="d4">
+            <li><a href="">洛杉矶</a></li>
+            <li><a href="">伦敦</a></li>
+            <li><a href="">长滩岛</a></li>
+            <li><a href="">巴黎</a></li>
+            <li><a href="">香港</a></li>
+          </ul>
+        </ul>
+        
+     <!--   <ul class="re" id="fei" style="display:none;">
+          <ul class="f1">
+            <li><a href="">开罗</a></li>
+            <li><a href="">塞舌尔</a></li>
+            <li><a href="">突尼斯</a></li>
+           
+          </ul>
+          <ul class="f2">
+            <li><a href="">毛里求斯</a></li>
+            <li><a href="">比勒陀利亚</a></li>
+            
+          </ul>
+          <ul class="f3">
+            <li><a href="">约翰内斯堡</a></li>
+            <li><a href="">内罗毕</a></li>
+            
+          </ul>
+          <ul class="f4">
+            <li><a href="">开普敦</a></li>
+            <li><a href="">德班</a></li>
+          </ul>
+        </ul>-->
+      </div>
+    </div>
+    <div class="s3" id="s3" >
+      <div class="air"> <img src="images/iair.png" alt=""><strong>机场车站</strong>
+        <ul>
+          <li><a href="">首尔，金浦国际机场</a></li>
+          <li><a href="">幸信站</a></li>
+        </ul>
+      </div>
+      <div class="wei"> <img src="images/ilocation.png" alt=""><strong>热门位置</strong>
+        <ul>
+          <li><a href="">昌德宫</a></li>
+          <li><a href="">昌庆宫</a></li>
+          <li><a href="">李舜臣纪念碑</a></li>
+          <li><a href="">韩国之家</a></li>
+          <li><a href="">N首之塔</a></li>
+          <li><a href="">德寿宫</a></li>
+          <li><a href="">景福宫</a></li>
+          <li><a href="">庆熙宫</a></li>
+          <li><a href="">崇礼门</a></li>
+          <li><a href="">曹溪寺</a></li>
+          <li><a href="">奉恩寺</a></li>
+          <li><a href="">三星大厦广场</a></li>
+          <li><a href="">宗庙</a></li>
+          <li><a href="">东大门城门</a></li>
+          <li><a href="">明洞天主圣堂</a></li>
+        </ul>
+      </div>
+      <div class="pin"> <img src="images/ilogo.png" alt=""><strong>热门品牌</strong>
+        <ul>
+          <li><a href="">悦荣庄</a></li>
+          <li><a href="">喜达屋</a></li>
+          <li><a href="">w酒店</a></li>
+          <li><a href="">铂尔曼</a></li>
+          <li><a href="">喜来登</a></li>
+          <li><a href="">威斯汀</a></li>
+          <li><a href="">美居</a></li>
+          <li><a href="">凯悦</a></li>
+          <li><a href="">万丽</a></li>
+          <li><a href="">希尔顿</a></li>
+          <li><a href="">万豪</a></li>
+          <li><a href="">雅乐轩</a></li>
+          <li><a href="">最佳西方</a></li>
+          <li><a href="">万怡</a></li>
+          <li><a href="">洲际</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="lb" id="lb"> <img src="images/iTokyo_ad1.jpg" alt="" id="pic" class="pic">
+  <ul class="cir" id="cir">
+    <li class="circle0"><a href=href="#"></a></li>
+    <li class="circle1"><a href=href="#"></a></li>
+    <li class="circle2"><a href=href="#"></a></li>
+    <li class="circle3"><a href=href="#"></a></li>
+    <li class="circle4"><a href=href="#"></a></li>
+  </ul>
+</div>
+<div class="text" id="text">
+  <h1>热门旅游目的地</h1>
+  <p>大家推荐的好去处</p>
+</div>
+<div id="center" class="center">
+  <ul class="on">
+    <li class="one"><a href=""><img src="images/i010.jpg" alt=""></a> <a href="" class="sh"><strong>首尔</strong>906家酒店</a> <a href="" class="ch1"><strong>78%</strong>的人想去</br>
+      一座古典与现代相融的城市，到处呈现出迷人的景色。</a> </li>
+    <li class="two"><a href=""><img src="images/i051.jpg" alt=""></a> <a href="" class="man"><strong>曼谷</strong>1205家酒店</a> <a href="" class="ch2"><strong>76%</strong>的人想去</br>
+      在岁月的流逝中，曼谷依然是游人心目中向往的旅游天堂。</a></li>
+    <li class="thr"><a href=""><img src="images/i052.jpg" alt=""></a> <a href="" class="la"><strong>拉斯维加斯</strong>248家酒店</a><a href="" class="ch3"><strong>68%</strong>的人想去</br>
+      一天的时间让你发现全世界。</a> </li>
+  </ul>
+  <ul class="down">
+    <li class="fr"><a href=""><img src="images/i053.jpg" alt=""></a> <a href="" class="niu"><strong>纽约</strong>812家酒店</a><a href="" class="ch4"><strong>58%</strong>的人想去</br>
+      如果你爱她，请带她去纽约，因为那是天堂。</a> </li>
+    <li class="fi"><a href=""><img src="images/i054.jpg" alt=""></a> <a href="" class="dong"><strong>东京</strong>587家酒店</a><a href="" class="ch5"><strong>60%</strong>的人想去</br>
+      充满活力和时代感的城市，购物天堂，美食之都。</a> </li>
+    <li class="six"><a href=""><img src="images/i056.jpg" alt=""></a> <a href="" class="xin"><strong>新加坡</strong>248家酒店</a><a href="" class="ch6"><strong>36%</strong>的人想去</br>
+      这里花香草绿，空气清新，是一个小巧的花园城市。</a> </li>
+  </ul>
+</div>
+<div class="trip" id="trip">
+  <p class="tip">度假主题</p>
+  <ul class="xb">
+    <li class="xb1"><a href="" class="xa1"><img src="" alt="" ></a></li>
+    <li class="xb2"><a href="" class="xa2"></a>
+    <a href="" class="lb2"></a>
+    </li>
+    <li class="xb3"><a href="" class="xa3"></a>
+   <a href="" class="lb3"></a>
+    </li>
+    <li class="xb4"><a href="" class="xa4"></a>
+    <a href="" class="lb4"></a>
+    </li>
+    <li class="xb5"><a href="" class="xa5"></a>
+    <a href="" class="lb5"></a>
+    </li>
+  </ul>
+  <div class="sai">
+    <div class="ban1"> <a href=""><img src="images/i041.jpg" alt="" style="width:386px; height:400px" class="meng">
+      <li class="yimg"></li>
+      </a> <a href="" class="yuan">
+      <p>塞班岛就是一个风情万种的佳人，玻璃般的海水，妩媚动人的密克罗尼西亚女郎与士风舞，以及浪漫而令人兴奋的沙滩烧烤派对。</p>
+      </a> </div>
+    <div class="sa2"> <a href="" class="jp"> <img src="images/i043.jpg" alt="" style="width:386px; height:161px" class="meng2">
+      <p><strong>普吉岛：</strong>安达曼海上的一颗明珠。</p>
+      </a> </div>
+    <div class="sa3"> <a href="" class="su"> <img src="images/i044.jpg" alt="" style="width:386px; height:161px" class="meng3">
+      <p><strong>苏梅岛：</strong>安宁清幽，蜜月圣地。</p>
+      </a> </div>
+    <div class="sa4"> <a href="" class="ba"> <img src="images/i042.jpg" alt="" style="width:386px; height:161px" class="meng4">
+      <p><strong>巴黎岛：</strong>天堂般的迷人景色让人深醉其中。</p>
+      </a> </div>
+    <div class="sa5"> <a href="" class="xa"> <img src="images/i045.jpg" alt="" style="width:386px; height:161px" class="meng5">
+      <p><strong>夏威夷：</strong>凝聚着东方妩媚与西方性感。</p>
+      </a> </div>
+  </div>
+</div>
+<div class="seho">
+  <div class="bt">
+    <p class="strong">搜索酒店</p>
+    <p>世界那么大，总会发现你心中的家</p>
+  </div>
+  <div class="tu"> 
+  <a href="" class="hai"><img src="images/i1.jpg" alt=""> </a> 
+  <a href="" class="wai"><img src="images/i2.jpg" alt=""></a> 
+  <a href="" class="yin"><img src="images/i3.jpg" alt=""></a> 
+  <a href="" class="hf">
+    <p>“碧蓝的大海前，温暖的阳光下，带着孩子尽情戏水，带着妻子沙滩漫步，带着父母悠然放松，这些海岛圆你一切美梦。”</p> </a>
+  <a href="" class="wf">
+    <p>“不一样的泉水，不一样的滋养，小艺走遍世界，精心挑选历史悠久的温泉，在这万物复苏的季节，赐予你无穷的朝气。”</p> </a> 
+  <a href="" class="yf">
+    <p>“羡慕跑男在首尔玩耍，向往泰囧里的可爱国度，又好奇花样姐姐走过的城市，这一次，让小艺带你亲身体验。”</p>
+  </a> 
+  <a href="" class="hk1">海岛酒店</a>
+  <a href="" class="hk2">海外温泉</a>
+  <a href="" class="hk3">荧幕之旅</a> </div>
+</div>
+<div class="wo"> <a href=""></a> </div>
+<div class="footer">
+  <li class="fo1"><a href="" class="afo1"></a>
+    <ul class="ml">
+      <a href="" class="more">更多酒店</a>
+      <p>可预定全球50万家酒店</p>
+      <p>覆盖200多个国家和地区</p>
+    </ul>
+  </li>
+  <li class="fo2"><a href="" class="afo2"></a>
+    <ul class="hui">
+      <a href="" class="chao">超值优惠</a>
+      <p>不收预订费</p>
+      <p>覆盖200多个国家和地区</p>
+    </ul>
+  </li>
+  <li class="fo3"><a href="" class="afo3"></a>
+    <ul class="lai">
+      <a href="" class="zhi">值得信赖</a>
+      <p>纳斯达克上市</p>
+      <p>支付安全可靠</p>
+    </ul>
+  </li>
+</div>
+</body>
+</html>
